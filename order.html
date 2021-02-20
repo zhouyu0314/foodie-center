@@ -163,7 +163,7 @@
 																<div v-show="order.orderStatus == 30" @click="confirmReceive(order.orderId)" class="am-btn am-btn-danger anniu">
 																	确认收货
 																</div>
-																<div v-show="order.isComment == 0 && order.orderStatus == 40" @click="commentItems(order.orderId)" class="am-btn am-btn-danger anniu">
+																<div v-show="order.isComment == -1 && order.orderStatus == 40" @click="commentItems(order.orderId)" class="am-btn am-btn-danger anniu">
 																	评价商品
 																</div>
 																<div v-show="order.isComment == 1 && order.orderStatus == 40" class="Mystatus">
