@@ -6,6 +6,16 @@ window.app = {
     centerServerUrl: "http://153.36.170.3:38080/foodie-center/",              // 用户中心地址
     cookieDomain: "",                                                       // cookie 域
 
+
+
+    /* 生产环境 */
+    // serverUrl: "http://153.36.170.3:48088/foodie-dev-api",                      // 接口服务接口地址
+    // paymentServerUrl: "http://153.36.170.3:48089/foodie-payment",       // 支付中心服务地址
+    // shopServerUrl: "http://153.36.170.3:48080/foodie-shop/",                            // 门户网站地址
+    // centerServerUrl: "http://153.36.170.3:48080/foodie-center/",                        // 用户中心地址
+    // //cookieDomain: ".z.mukewang.com;",                                       // cookie 域
+    // cookieDomain: "",
+
     /* 生产环境 */
     // serverUrl: "http://api.z.mukewang.com:8088/foodie-dev-api",                      // 接口服务接口地址
     // paymentServerUrl: "http://payment.t.mukewang.com/foodie-payment",       // 支付中心服务地址
